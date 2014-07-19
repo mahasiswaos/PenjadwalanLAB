@@ -1,0 +1,15 @@
+
+<?php $__env->startSection('content'); ?>
+
+
+
+<div class="jumbotron">
+    <h2>Selamata Datang!</h2>
+    <div class="">
+        Di halaman Administrator Penjadwalan Pratikum 
+    </div>
+</div>
+
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make ('layout.bootstrap3.index', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
